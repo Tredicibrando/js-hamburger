@@ -11,6 +11,13 @@ hamburgerStripes.addEventListener ("click", function() {
 })
 
 hamburgerClosed.addEventListener ("click", function() {
-    hamburgerMenu.style.visibility="hidden";
+    hamburgerMenu.style.display="none";
     
 })
+
+
+
+
+
+
+
