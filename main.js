@@ -6,12 +6,12 @@ const hamburgerClosed = document.querySelector('.close');
 console.log(hamburgerMenu , hamburgerStripes)
 
 hamburgerStripes.addEventListener ("click", function() {
-    hamburgerMenu.style.display="block";
+    hamburgerMenu.classList.add('active');
     
 })
 
 hamburgerClosed.addEventListener ("click", function() {
-    hamburgerMenu.style.display="none";
+    hamburgerMenu.classList.remove('active');
     
 })
 
