@@ -7,8 +7,10 @@ console.log(hamburgerMenu , hamburgerStripes)
 
 hamburgerStripes.addEventListener ("click", function() {
     hamburgerMenu.style.display="block";
+    
 })
 
 hamburgerClosed.addEventListener ("click", function() {
     hamburgerMenu.style.visibility="hidden";
+    
 })
